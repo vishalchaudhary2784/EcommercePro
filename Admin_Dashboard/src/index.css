@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.scrollbar::-webkit-scrollbar-track {
+}
+
+/* Handle */
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #0858f7;
+}
+
+.hideScrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.hideScrollbar::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 20px;
+}
